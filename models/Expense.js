@@ -7,3 +7,5 @@ var expenseSchema = new Schema({
     month: String,
     year: Number
 });
+
+module.exports = mongoose.model('Expense', expenseSchema);
