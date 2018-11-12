@@ -2,11 +2,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import Add from './Add'
+import Add from './Add';
+import Update from './Update'
 export default class App extends React.Component {
     constructor() {
         super();
-        this.state = {selectedMonth:'Jan', selectedYear: 2016, data: []};
+        this.state = {selectedMonth:'All', selectedYear: 2016, data: []};
         this.getData = this.getData.bind(this);
     }
     componentDidMount() {
@@ -25,19 +26,19 @@ export default class App extends React.Component {
     render() {
         return (
             <div>
-              <Add selectedMonth={this.state.selectedMonth} selectedYear={this.state.selectedYear} />
-              <table>
-                <thead>
-                <tr><th></th><th className='desc-col'>Description</th><th className='button-col'>Amount</th><th className='button-col'>Month</th><th className='button-col'>Year</th></tr>
-                </thead>
-                <tbody>
-                {
-                    this.state.data.map(function(exp){
-                        return  <tr><td className='counterCell'></td><td className='desc-col'>{exp.description}</td><td className='button-col'>{exp.amount}</td><td className='button-col'>{exp.month}</td><td className='button-col'>{exp.year}</td></tr>
-                    })
-                }
-                </tbody>
-              </table>
+                <Add selectedMonth={this.state.selectedMonth} selectedYear={this.state.selectedYear} />
+                <table>
+                    <thead>
+                    <tr><th></th><th className='desc-col'>Description</th><th className='button-col'>Amount</th><th className='button-col'>Month</th><th className='button-col'>Year</th><th className='button-col'>Update</th></tr>
+                    </thead>
+                    <tbody>
+                    {
+                        this.state.data.map(function(exp){
+                            return  <tr><td className='counterCell'></td><td className='desc-col'>{exp.description}</td><td className='button-col'>{exp.amount}</td><td className='button-col'>{exp.month}</td><td className='button-col'>{exp.year}</td><td className='button-col'><Update expense={exp} /></td></tr>
+                        })
+                    }
+                    </tbody>
+                </table>
             </div>
         );
     }
