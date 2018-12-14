@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5b921a0-d79b-426f-aa12-b302239c48ac" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/App.js" afterPath="$PROJECT_DIR$/client/components/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/components/Update.js" afterPath="$PROJECT_DIR$/client/components/Update.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/components/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1346">
@@ -105,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Update.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Update.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/components/Update.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="125" column="34" lean-forward="false" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+            <state relative-caret-position="2856">
+              <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
               <folding>
                 <element signature="e#30#56#0" expanded="true" />
               </folding>
@@ -158,11 +157,11 @@
         <option value="$PROJECT_DIR$/client/routes.js" />
         <option value="$PROJECT_DIR$/client/index.js" />
         <option value="$PROJECT_DIR$/server/routes/routes.js" />
-        <option value="$PROJECT_DIR$/client/components/Update.js" />
         <option value="$PROJECT_DIR$/client/components/Delete.js" />
         <option value="$PROJECT_DIR$/client/components/yearTabsRouter.js" />
         <option value="$PROJECT_DIR$/client/components/tabs/monthTabs.js" />
         <option value="$PROJECT_DIR$/client/components/App.js" />
+        <option value="$PROJECT_DIR$/client/components/Update.js" />
       </list>
     </option>
   </component>
@@ -306,12 +305,12 @@
       <workItem from="1542182722468" duration="972000" />
       <workItem from="1544613007790" duration="402000" />
       <workItem from="1544682301475" duration="611000" />
-      <workItem from="1544782615022" duration="195000" />
+      <workItem from="1544782615022" duration="331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24405000" />
+    <option name="totallyTimeSpent" value="24541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -637,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/components/Update.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="125" column="34" lean-forward="false" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
-          <folding>
-            <element signature="e#30#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/components/Delete.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -683,6 +672,16 @@
           <caret line="181" column="19" lean-forward="false" selection-start-line="181" selection-start-column="19" selection-end-line="181" selection-end-column="19" />
           <folding>
             <element signature="e#27#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/components/Update.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2856">
+          <caret line="168" column="22" lean-forward="false" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
+          <folding>
+            <element signature="e#30#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
